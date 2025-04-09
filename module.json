@@ -1,0 +1,60 @@
+{
+  "id": "ogorodniks-pack",
+  "title": "Ogorodnik's Pack",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+
+  "authors": [
+    {
+      "name": "Огородник",
+      "discord": ".ogorodnik",
+      "flags": {}
+    }
+  ],
+
+  "packFolders": [
+    {
+      "name": "Ogorodnik's Pack",
+      "sorting": "m",
+      "color": "#4b7faf",
+      "packs": [
+                "classes",
+                "options"
+              ],
+      "folders": []
+    }
+  ],
+
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Классы",
+      "path": "packs/classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "options",
+      "label": "Особенности",
+      "path": "packs/options",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  
+  "manifest": "/module.json",
+  "download": "/pretor.zip"
+}
