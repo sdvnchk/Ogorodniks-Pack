@@ -22,7 +22,8 @@
       "color": "#4b7faf",
       "packs": [
                 "classes",
-                "options"
+                "options",
+                "macros"
               ],
       "folders": []
     }
@@ -46,6 +47,18 @@
       "label": "Особенности",
       "path": "packs/options",
       "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "macros",
+      "label": "Макросы",
+      "path": "packs/macros",
+      "type": "Macro",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
